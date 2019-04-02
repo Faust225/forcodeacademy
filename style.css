@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	width: 1024px;
+	height: 100vh;
+	overflow-y: auto;
+}
+
+header{
+ height: 16%;
+ text-align: center;
+ background-color: #ff4700;
+}
+
+header nav{
+	padding-top: 20px;
+}
+
+header nav ul {
+	padding-top: 20px;
+}
+
+header nav ul li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+header nav h1{
+	color: white;
+}
+
+#about{
+	padding-top: 70px;
+	text-align: center;
+}
+#man{
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+	height: 290px;
+}
+
+#man img{
+	float: left;
+}
+
+#man p{
+	padding-bottom: 20px;
+}
+
+#man a{
+	margin-left: 400px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#timetable{
+	text-align: center;
+	padding-top: 50px;
+	border-bottom: 1px solid black;
+	padding-bottom: 50px;
+}
+
+#timetable h2{
+}
+
+table{
+	margin: 0 auto;
+	width: 97%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th{
+	background: #ea9f26;
+	color: white;
+	text-align: left;
+	padding: 5px 5px;
+}
+
+td{
+	text-align: center;
+	border: 1px solid #cccccc;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+td a{
+	color: #ab230d;
+}
+
+#neris{
+	text-align: center;
+	margin: 50px 0;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+#contacts h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+footer h2{
+	text-align: center;
+}
+
+footer img{
+	margin: 2% 1%;
+}
+
+footer{
+	text-align: center;
+	background: #333f48;
+	width: 100%;
+	color: #999f94;
+}
+/*span display block*/

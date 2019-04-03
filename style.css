@@ -4,21 +4,29 @@
 
 }
 
+
+
 body{
-	width: 1024px;
 	height: 100vh;
 	overflow-y: auto;
+	background: #333f48;
 }
 
+/* Center all website */
+main{
+	margin: 10px 0;
+	max-width: 1024px;
+	margin: auto;
+	background: white;
+}
+
+/* head */
 header{
  height: 16%;
  text-align: center;
  background-color: #ff4700;
 }
 
-header nav{
-	padding-top: 20px;
-}
 
 header nav ul {
 	padding-top: 20px;
@@ -39,24 +47,33 @@ header nav ul li a:hover{
 	text-decoration: underline;
 }
 
-header nav h1{
+header h1{
 	color: white;
 }
+/* End of head */
+
 
 #about{
 	padding-top: 70px;
 	text-align: center;
 }
+
 #man{
-	margin-top: 20px;
+	margin: 20px 0;
 	border-bottom: 1px solid black;
-	height: 290px;
+	height: 370px;
 }
 
 #man img{
-	float: left;
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
 }
 
+.text{
+	display: inline-block;
+	width: 50%;
+}
 #man p{
 	padding-bottom: 20px;
 }
@@ -69,6 +86,7 @@ header nav h1{
 	border-radius: 10px;
 }
 
+/* Table */
 #timetable{
 	text-align: center;
 	padding-top: 50px;
@@ -103,19 +121,40 @@ td{
 td a{
 	color: #ab230d;
 }
+/* End of table */
 
+/* Poem */
 #neris{
 	text-align: center;
 	margin: 50px 0;
 	padding-bottom: 50px;
 	border-bottom: 1px solid black;
+
 }
+
+#neris span{
+	display: block;
+}
+
+#neris h2{
+	padding-bottom: 20px;
+}
+
+#neris h3{
+	line-height: 40px;
+}
+
+#neris .enter{
+	padding: 10px;
+}
+/* End of poem */
 
 #contacts h2{
 	text-align: center;
 	padding-bottom: 20px;
 }
 
+/* Footer */
 footer h2{
 	text-align: center;
 }
@@ -130,4 +169,3 @@ footer{
 	width: 100%;
 	color: #999f94;
 }
-/*span display block*/

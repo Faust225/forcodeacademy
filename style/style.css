@@ -4,6 +4,8 @@
 
 }
 
+
+
 body{
 	height: 100vh;
 	overflow-y: auto;
@@ -57,15 +59,21 @@ header h1{
 }
 
 #man{
-	margin-top: 20px;
+	margin: 20px 0;
 	border-bottom: 1px solid black;
-	height: 290px;
+	height: 370px;
 }
 
 #man img{
-	float: left;
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
 }
 
+.text{
+	display: inline-block;
+	width: 50%;
+}
 #man p{
 	padding-bottom: 20px;
 }
